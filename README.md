@@ -6,7 +6,7 @@ My personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin ma
 
 ```bash
 # from GitHub
-/plugin marketplace add <github-user>/claude-forge
+/plugin marketplace add danczw/claude-forge
 # or from a local clone while developing
 /plugin marketplace add ~/code/claude-forge
 
@@ -17,12 +17,7 @@ Update after pushing changes: `/plugin marketplace update forge`
 
 ## Plugins
 
-| Plugin | Description |
-|---|---|
-| [dev](plugins/dev) | Commit messages, code review agent, standup command, dangerous-command guard |
-| [song](plugins/song) | Code-rendered music videos with Remotion |
-| [website](plugins/website) | Blog posts for danczw.com |
-| [misc](plugins/misc) | Prose editor agent |
+Each plugin lives in [`plugins/`](plugins) with its own README; [`marketplace.json`](.claude-plugin/marketplace.json) lists them all.
 
 ## Add a plugin
 
