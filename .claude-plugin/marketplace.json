@@ -1,0 +1,11 @@
+{
+  "name": "forge",
+  "owner": {
+    "name": "dancz"
+  },
+  "metadata": {
+    "description": "Personal Claude Code marketplace: skills, agents, commands and hooks for my own use.",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}
