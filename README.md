@@ -20,6 +20,7 @@ Update after pushing changes: `/plugin marketplace update forge`
 | Plugin | Description |
 |---|---|
 | [dev](plugins/dev) | Commit messages, code review agent, standup command, dangerous-command guard |
+| [song](plugins/song) | Code-rendered music videos with Remotion |
 
 ## Add a plugin
 

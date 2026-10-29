@@ -19,6 +19,13 @@
         "review",
         "workflow"
       ]
+    },
+    {
+      "name": "song",
+      "source": "./plugins/song",
+      "description": "Code-rendered music videos with Remotion: audio prep, storyboard, build, review and render.",
+      "version": "0.1.0",
+      "category": "creative"
     }
   ]
 }
