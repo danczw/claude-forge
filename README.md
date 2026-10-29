@@ -22,6 +22,7 @@ Update after pushing changes: `/plugin marketplace update forge`
 | [dev](plugins/dev) | Commit messages, code review agent, standup command, dangerous-command guard |
 | [song](plugins/song) | Code-rendered music videos with Remotion |
 | [website](plugins/website) | Blog posts for danczw.com |
+| [misc](plugins/misc) | Prose editor agent |
 
 ## Add a plugin
 
