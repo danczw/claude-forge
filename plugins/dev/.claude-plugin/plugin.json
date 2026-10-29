@@ -1,0 +1,9 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "description": "Everyday dev workflow: commit messages, code review agent, standup command, and a dangerous-command guard.",
+  "author": {
+    "name": "dancz"
+  },
+  "keywords": ["git", "review", "workflow"]
+}

@@ -7,5 +7,18 @@
     "description": "Personal Claude Code marketplace: skills, agents, commands and hooks for my own use.",
     "version": "0.1.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "dev",
+      "source": "./plugins/dev",
+      "description": "Everyday dev workflow: commit messages, code review agent, standup command, and a dangerous-command guard.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "git",
+        "review",
+        "workflow"
+      ]
+    }
+  ]
 }

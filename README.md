@@ -19,6 +19,7 @@ Update after pushing changes: `/plugin marketplace update forge`
 
 | Plugin | Description |
 |---|---|
+| [dev](plugins/dev) | Commit messages, code review agent, standup command, dangerous-command guard |
 
 ## Add a plugin
 
