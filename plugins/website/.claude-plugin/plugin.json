@@ -1,0 +1,8 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "description": "Skills for danczw.com: writing blog posts in the site's voice and format.",
+  "author": {
+    "name": "dancz"
+  }
+}
