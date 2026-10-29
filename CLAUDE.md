@@ -6,7 +6,8 @@ Personal Claude Code plugin marketplace named `forge`.
 
 - New plugins: run `scripts/new-plugin.py <name> "<description>"`. Don't hand-copy the template.
 - Every plugin under `plugins/` must have an entry in `.claude-plugin/marketplace.json`.
-- When changing a plugin, bump its `version` in both `plugin.json` and `marketplace.json`.
+- When changing a plugin, bump its `version` in both `plugin.json` and `marketplace.json` (CI checks via `scripts/check-versions.py`).
+- `main` is protected: changes land via PR.
 - Skill `description` fields decide when a skill triggers: state what it does and "Use when ...".
 - Hook commands reference files with `${CLAUDE_PLUGIN_ROOT}`, never absolute paths.
 - Validate with `claude plugin validate .` before committing.
