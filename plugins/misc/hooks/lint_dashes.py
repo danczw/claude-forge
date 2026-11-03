@@ -8,8 +8,9 @@ import sys
 
 tool_input = json.load(sys.stdin).get("tool_input", {})
 path = tool_input.get("file_path", "")
-text = tool_input.get("content") or tool_input.get("new_string") or ""
-if path.endswith((".md", ".txt")) and "—" in text:
+edits = tool_input.get("edits") or [tool_input]
+text = "".join(e.get("content") or e.get("new_string") or "" for e in edits)
+if path.endswith((".md", ".mdx", ".txt")) and "—" in text:
     print(f"Em dash written to {path}: rewrite with a period, comma, colon or parentheses.", file=sys.stderr)
     sys.exit(2)
 sys.exit(0)
