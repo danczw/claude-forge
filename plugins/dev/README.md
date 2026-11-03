@@ -10,5 +10,4 @@
 | Skill | `issue-triage` | Fold into existing work or file an issue with existing labels and milestone |
 | Agent | `code-reviewer` | Reviews a diff for bugs, security, simplicity and clarity |
 | Command | `/dev:standup [since]` | Standup summary from your git log |
-| Hook | `guard_bash.py` | Blocks `rm -rf /`, bare force-push, `mkfs`, `dd of=/dev/…`, `sleep` ≥ 30s |
-| Hook | `guard_gh_account.py` | Blocks `gh` / `git push` when the repo owner is a logged-in gh account that isn't active |
+| Hook | `guard_bash.py` | Blocks `rm -rf /`, bare force-push, `mkfs`, `dd of=/dev/…`, `sleep` ≥ 30s, and `gh` when the repo owner is a logged-in gh account that isn't active |
