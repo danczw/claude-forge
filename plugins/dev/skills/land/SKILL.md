@@ -5,7 +5,7 @@ description: Merge a ready PR and clean up its worktree and branches. Use when t
 
 # Land
 
-1. If not merged yet: confirm required checks pass, then merge with the repo's allowed method (`gh pr merge`) after the user approves. Rebase first if the base requires it.
+1. If not merged yet: run `premerge`, then merge with the repo's allowed method (`gh pr merge`) after the user approves.
 2. From the main checkout: switch to the default branch, pull, `git fetch --prune`.
 3. For each PR that is merged: remove its worktree (`git worktree remove`), delete the local and remote branch.
 4. Never remove a worktree with uncommitted or unpushed work, or one another session is using; list those instead.
