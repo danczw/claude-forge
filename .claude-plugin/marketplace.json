@@ -37,8 +37,8 @@
     {
       "name": "misc",
       "source": "./plugins/misc",
-      "description": "Miscellaneous agents and skills.",
-      "version": "0.1.0",
+      "description": "Miscellaneous agents, skills and hooks: prose editing, message drafting, em-dash lint.",
+      "version": "0.2.0",
       "category": "productivity"
     }
   ]
