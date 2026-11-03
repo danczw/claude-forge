@@ -1,5 +1,5 @@
 ---
-name: blog-post
+name: write-blog-post
 description: Write a ~400-word blog post for danczw.com (architecture deep dive, hot take, or lessons learned) in the site's voice, saved as a draft in the current project's posts collection. Use when the user wants to write or draft a blog post for their website.
 ---
 
