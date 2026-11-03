@@ -1,5 +1,5 @@
 ---
-name: music-video
+name: make-music-video
 description: Create a code-rendered music video with Remotion in a song workspace, as kinetic typography (2D) or story (3D): audio prep, lyric alignment, storyboard, build, review, render. Use when the user wants to make, storyboard, render or revise a music video.
 ---
 
