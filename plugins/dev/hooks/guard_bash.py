@@ -12,6 +12,7 @@ BLOCKED = [
     (r"\bgit\s+push\s+.*--force(?!-with-lease)", "force push (use --force-with-lease)"),
     (r"\bmkfs(\.\w+)?\b", "formatting a filesystem"),
     (r"\bdd\s+.*of=/dev/", "raw write to a device"),
+    (r"\bsleep\s+([3-9]\d|\d{3,})\b", "long sleep (wait with gh pr checks --watch, gh run watch or Monitor)"),
 ]
 
 payload = json.load(sys.stdin)

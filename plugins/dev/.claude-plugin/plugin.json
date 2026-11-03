@@ -1,7 +1,7 @@
 {
   "name": "dev",
-  "version": "0.1.0",
-  "description": "Everyday dev workflow: commit messages, code review agent, standup command, and a dangerous-command guard.",
+  "version": "0.2.0",
+  "description": "Everyday dev workflow: commits, GitHub issue-to-merge skills, review passes, code review agent, standup command, and bash guards.",
   "author": {
     "name": "dancz"
   },
