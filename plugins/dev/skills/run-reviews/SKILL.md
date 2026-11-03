@@ -1,9 +1,9 @@
 ---
-name: review-passes
+name: run-reviews
 description: Run code review, security review and a comment pass on the current branch in order, fixing between passes. Use before opening or readying a PR, or when the user asks to "run the reviews" or whether the reviews ran.
 ---
 
-# Review passes
+# Run reviews
 
 Order, fixing what each reports before the next (follow the repo's CLAUDE.md if it defines its own):
 1. `/code-review`: correctness first, so bugs don't show up as phantom security findings.
