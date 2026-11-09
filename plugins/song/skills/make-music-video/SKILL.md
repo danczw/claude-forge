@@ -7,7 +7,7 @@ description: Create a code-rendered music video with Remotion in a song workspac
 
 Work in the current directory. Check it has `songs/<slug>/` (song data), `tools/` (`new_song.sh`, `prepare.sh`, `transcribe.py`) and `video/` (Remotion); if not, ask before setting it up. Use the most complete song in `video/src/songs/` as the reference implementation.
 
-Work in stages with checkpoints; commit atomically after each and push. Whenever a design choice is the user's, offer 2–4 options with a recommendation.
+Work in stages with checkpoints; commit atomically after each. Whenever a design choice is the user's, offer 2–4 options with a recommendation.
 
 ## 0. Brief and questions
 Get: title + audio path; style (A kinetic typography / B story); concept in one sentence (story: who wants what, what stops them, how it ends); tone; 1–4 recurring motifs; one unifying frame every scene lives in (e.g. pages of one exam booklet, with shared page furniture and a margin "voice"); structure (e.g. chorus escalates, bridge breaks); palette (muted base, ink, one motif accent; no black/neon); fonts (show a still comparing 2–3 candidates); formats (16:9, optional 9:16; final 4K60); optional reference video (analyse frames, never copy) and delivery folder.
@@ -27,7 +27,7 @@ Table: **# · time · lyric/section · shot · gag/object**, stored as data in `
 - Cut ~0.12 s before its line, snapped to the beat; transitions centred on the cut.
 - Every gag reads at a glance, or gets replaced.
 
-## Motion rules (non-negotiable)
+## Motion rules
 - **Reading time:** final readable state ≥ 1.2 s before each cut (`at = min(planned, leave − 1.2 − writeDuration)`); run `node video/scripts/reading-time.mjs` before every render. Exception: the song itself runs straight on.
 - **Transitions** 0.2–0.4 s. Long gags (~0.7 s page rip) only at section changes with ≥ 2 s gaps. 1–2 s page turns are too slow.
 - **Calm:** text moves with intent, then holds. No idle wiggle, sway, beat-driven camera pumping; constant effect strength unless escalation is the point.

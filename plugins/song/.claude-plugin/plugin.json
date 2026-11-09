@@ -1,6 +1,6 @@
 {
   "name": "song",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Code-rendered music videos with Remotion: audio prep, storyboard, build, review and render.",
   "author": {
     "name": "dancz"
