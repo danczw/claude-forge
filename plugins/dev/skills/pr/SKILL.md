@@ -32,6 +32,8 @@ Use this template for writing the PR body:
 <optional: potential ramifications of merge>
 ```
 
+Assign the author when opening the PR: `gh pr create --assignee @me`.
+
 ## Sections
 
 Skip all preambles and keep prose brief. Use the user's domain language from `GLOSSARY.md`.
