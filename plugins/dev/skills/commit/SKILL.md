@@ -6,7 +6,7 @@ description: Commit changes as atomic commits with Conventional Commits 1.0.0 me
 # Commit
 
 1. Read `git status` and `git diff HEAD`. Group changes into atomic commits: one logical change each, building and passing tests on its own, refactors/formatting separate from behaviour, tests and docs with their change. Split mixed files by hunk (write a patch, `git apply --cached`).
-2. Show the plan (message + files per commit) and wait for approval.
+2. Show the plan (message + files per commit). Wait for approval only if the user asked to review first; otherwise commit straight away.
 3. Commit in order, then show `git log --oneline -n <count>`. Never push unless asked.
 
 ## Format ([Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/))
