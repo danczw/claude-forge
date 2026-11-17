@@ -1,4 +1,4 @@
-# dev
+# danczw-dev
 
 | Type | Name | What it does |
 |---|---|---|
@@ -9,5 +9,5 @@
 | Skill | `merge-and-cleanup` | Merge, then remove merged worktrees and branches |
 | Skill | `file-issue` | Fold into existing work or file an issue with existing labels and milestone |
 | Agent | `code-reviewer` | Reviews a diff for bugs, security, simplicity and clarity |
-| Command | `/dev:standup [since]` | Standup summary from your git log |
+| Command | `/danczw-dev:standup [since]` | Standup summary from your git log |
 | Hook | `guard_bash.py` | Blocks `rm -rf /`, bare force-push, `mkfs`, `dd of=/dev/…`, `sleep` ≥ 30s, and `gh` when the repo owner is a logged-in gh account that isn't active |
