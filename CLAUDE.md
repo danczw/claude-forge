@@ -1,6 +1,6 @@
-# claude-forge
+# danczw-claude
 
-Personal Claude Code plugin marketplace named `danczw`.
+Personal Claude Code plugin marketplace named `danczw-claude`.
 
 **Less is more.** Keep skills, agents, hooks and scripts to the fewest words and simplest code that keep the essentials, and answer briefly. Less code is more.
 
