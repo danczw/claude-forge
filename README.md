@@ -1,4 +1,4 @@
-# claude-forge
+# danczw-claude
 
 My personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace: skills, agents, commands and hooks, versioned in one repo.
 
@@ -6,14 +6,14 @@ My personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin ma
 
 ```bash
 # from GitHub
-/plugin marketplace add danczw/claude-forge
+/plugin marketplace add danczw/danczw-claude
 # or from a local clone while developing
 /plugin marketplace add ~/code/claude-forge
 
-/plugin install danczw-dev@danczw
+/plugin install danczw-dev@danczw-claude
 ```
 
-Update after pushing changes: `/plugin marketplace update danczw`
+Update after pushing changes: `/plugin marketplace update danczw-claude`
 
 ## Plugins
 
