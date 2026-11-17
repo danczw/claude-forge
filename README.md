@@ -22,7 +22,7 @@ Each plugin lives in [`plugins/`](plugins) with its own README; [`marketplace.js
 ## Add a plugin
 
 ```bash
-scripts/new-plugin.py my-plugin "What it does" --category productivity
+scripts/new-plugin.py danczw-my-plugin "What it does" --category productivity
 claude plugin validate .
 ```
 
