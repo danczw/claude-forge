@@ -10,7 +10,7 @@ My personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin ma
 # or from a local clone while developing
 /plugin marketplace add ~/code/claude-forge
 
-/plugin install dev@forge
+/plugin install danczw-dev@forge
 ```
 
 Update after pushing changes: `/plugin marketplace update forge`

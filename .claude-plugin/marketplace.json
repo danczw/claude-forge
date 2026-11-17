@@ -9,10 +9,10 @@
   },
   "plugins": [
     {
-      "name": "dev",
-      "source": "./plugins/dev",
+      "name": "danczw-dev",
+      "source": "./plugins/danczw-dev",
       "description": "Everyday dev workflow: commits, GitHub issue-to-merge skills, review passes, code review agent, standup command, and bash guards.",
-      "version": "0.2.2",
+      "version": "1.0.0",
       "category": "development",
       "keywords": [
         "git",
@@ -21,24 +21,24 @@
       ]
     },
     {
-      "name": "song",
-      "source": "./plugins/song",
+      "name": "danczw-song",
+      "source": "./plugins/danczw-song",
       "description": "Code-rendered music videos with Remotion: audio prep, storyboard, build, review and render.",
-      "version": "0.2.1",
+      "version": "1.0.0",
       "category": "creative"
     },
     {
-      "name": "website",
-      "source": "./plugins/website",
+      "name": "danczw-website",
+      "source": "./plugins/danczw-website",
       "description": "Skills for danczw.com: writing blog posts in the site's voice and format.",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "category": "writing"
     },
     {
-      "name": "misc",
-      "source": "./plugins/misc",
+      "name": "danczw-misc",
+      "source": "./plugins/danczw-misc",
       "description": "Miscellaneous agents, skills and hooks: prose editing, message drafting, em-dash lint.",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "category": "productivity"
     }
   ]

@@ -1,4 +1,4 @@
-# website
+# danczw-website
 
 Skills for danczw.com, run from the website repo.
 
