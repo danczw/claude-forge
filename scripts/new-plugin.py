@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Scaffold a new plugin from templates/plugin and register it in marketplace.json.
 
-Usage: scripts/new-plugin.py <name> "<description>" [--category <category>]
+Usage: scripts/new-plugin.py danczw-<name> "<description>" [--category <category>]
 """
 import argparse
 import json
@@ -20,8 +20,8 @@ parser.add_argument("description")
 parser.add_argument("--category", default="productivity")
 args = parser.parse_args()
 
-if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", args.name):
-    sys.exit("Plugin name must be kebab-case, e.g. my-plugin")
+if not re.fullmatch(r"danczw(-[a-z0-9]+)+", args.name):
+    sys.exit("Plugin name must be kebab-case with the owner prefix, e.g. danczw-my-plugin")
 
 dest = ROOT / "plugins" / args.name
 if dest.exists():

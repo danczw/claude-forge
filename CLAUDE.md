@@ -4,7 +4,7 @@ Personal Claude Code plugin marketplace named `forge`.
 
 **Less is more.** Keep skills, agents, hooks and scripts to the fewest words and simplest code that keep the essentials, and answer briefly. Less code is more.
 
-- New plugins: run `scripts/new-plugin.py <name> "<description>"`. Don't hand-copy the template.
+- New plugins: run `scripts/new-plugin.py danczw-<name> "<description>"`. Don't hand-copy the template. Plugin names start with `danczw-` so skills show where they come from.
 - Every plugin under `plugins/` must have an entry in `.claude-plugin/marketplace.json`.
 - When changing a plugin, bump its `version` in both `plugin.json` and `marketplace.json` (CI checks via `scripts/check-versions.py`).
 - `main` is protected: changes land via PR.
