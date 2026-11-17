@@ -24,6 +24,8 @@ errors = []
 for manifest in sorted(ROOT.glob("plugins/*/.claude-plugin/plugin.json")):
     name = manifest.parent.parent.name
     version = json.loads(manifest.read_text())["version"]
+    if not name.startswith("danczw-"):
+        errors.append(f"{name}: plugin name must start with danczw-")
     if listed.get(name) != version:
         errors.append(f"{name}: plugin.json has {version}, marketplace.json has {listed.get(name)}")
     old = git("show", f"{base}:plugins/{name}/.claude-plugin/plugin.json")
